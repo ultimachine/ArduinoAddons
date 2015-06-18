@@ -1,0 +1,46 @@
+{
+   "packages":[
+      {
+         "name":"rambo",
+         "maintainer":"UltiMachine",
+         "websiteURL":"https://github.com/ultimachine/ArduinoAddons",
+         "email":"info@ultimachine.com",
+         "help":{
+            "online":"https://ultimachine.com"
+         },
+         "platforms":[
+            {
+               "name":"RepRap Arduino Mega BOard (RAMBo)",
+               "architecture":"avr",
+               "version":"1.0.0",
+               "category":"Contributed",
+               "url":"https://raw.githubusercontent.com/ultimachine/ArduinoAddons/master/rambo-1.0.0.zip",
+               "archiveFileName":"rambo-1.0.0.zip",
+               "checksum":"SHA-256:bf6db5929e051ff61ede3066157ac4abc32db387dd4a694a37369835faea92c0",
+               "size":"944852",
+               "help":{
+                  "online":"http://reprap.org/wiki/Rambo"
+               },
+               "boards":[
+                  {
+                     "name":"Rambo"
+                  }
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"arduino",
+                     "name":"avr-gcc",
+                     "version":"4.8.1-arduino5"
+                  },
+                  {
+                     "packager":"arduino",
+                     "name":"avrdude",
+                     "version":"6.0.1-arduino5"
+                  }
+               ]
+            }
+         ],
+         "tools":[]
+      }
+   ]
+}
