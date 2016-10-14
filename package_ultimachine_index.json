@@ -10,7 +10,7 @@
          },
          "platforms":[
             {
-               "name":"RepRap Arduino Mega BOard (RAMBo)",
+               "name":"RepRap Arduino-compatible Mother Board (RAMBo)",
                "architecture":"avr",
                "version":"1.0.0",
                "category":"Contributed",
@@ -41,6 +41,49 @@
             }
          ],
          "tools":[]
+      },
+      {
+         "name":"ultimachine",
+         "maintainer":"UltiMachine",
+         "websiteURL":"https://github.com/ultimachine/ArduinoAddons",
+         "email":"info@ultimachine.com",
+         "help":{
+            "online":"https://ultimachine.com"
+         },
+         "platforms":[
+            {
+               "name":"Archim",
+               "architecture":"sam",
+               "version":"1.6.9",
+               "category":"Contributed",
+               "url":"https://github.com/ultimachine/ArchimAddons/files/530540/archim-1.6.9.zip",
+               "archiveFileName":"archim-1.6.9.zip",
+               "checksum":"SHA-256:46a1e42d7a76bb308aa1f32735c4149cf99fd0d81572a352bd28b9d74b51856b",
+               "size":"17505477",
+               "help":{
+                  "online":"https://github.com/ultimachine/Archim/wiki"
+               },
+               "boards":[
+                  {
+                     "name":"Archim"
+                  }
+               ],
+			  "toolsDependencies": [
+				{
+				  "packager": "arduino",
+				  "name": "arm-none-eabi-gcc",
+				  "version": "4.8.3-2014q1"
+				},
+				{
+				  "packager": "arduino",
+				  "name": "bossac",
+				  "version": "1.7.0"
+				}
+               ]
+            }
+         ],
+         "tools":[
+		 ]
       }
    ]
 }
