@@ -43,6 +43,37 @@
          "tools":[]
       },
       {
+         "name":"rambo",
+         "maintainer":"UltiMachine",
+         "websiteURL":"https://github.com/ultimachine/ArduinoAddons",
+         "email":"info@ultimachine.com",
+         "help":{
+            "online":"https://ultimachine.com"
+         },
+         "platforms":[
+            {
+               "name":"RepRap Arduino-compatible Mother Board (RAMBo)",
+               "architecture":"avr",
+               "version":"1.0.1",
+               "category":"Contributed",
+               "url":"https://github.com/ultimachine/ArduinoAddons/raw/master/rambo-1.0.1.zip",
+               "archiveFileName":"rambo-1.0.1.zip",
+               "checksum":"SHA-256:a96124e15cbb1ff3fbafa2fc672e711090233dcab3c0a9a17b3759beb0249037",
+               "size":"944852",
+               "help":{
+                  "online":"http://reprap.org/wiki/Rambo"
+               },
+               "boards":[
+                  {
+                     "name":"Rambo"
+                  }
+               ],
+               "toolsDependencies":[]
+            }
+         ],
+         "tools":[]
+      },
+      {
          "name":"ultimachine",
          "maintainer":"UltiMachine",
          "websiteURL":"https://github.com/ultimachine/ArduinoAddons",
