@@ -171,6 +171,36 @@
 				  "version": "1.8-samg55"
 				}
                ]
+            },
+            {
+               "name":"Feynman",
+               "architecture":"sam",
+               "version":"0.0.2",
+               "category":"Contributed",
+               "url":"https://github.com/ultimachine/FeynmanCore/releases/download/0.0.2/feynman-0.0.2.zip",
+               "archiveFileName":"feynman-0.0.2.zip",
+               "checksum":"SHA-256:e133d953f45ea2806629d59ee2944b678c3550ecb4ff0c001e87645252c2ac0f",
+               "size":"133320098",
+               "help":{
+                  "online":"https://github.com/ultimachine/FeynmanCore"
+               },
+               "boards":[
+                  {
+                     "name":"Feynman"
+                  }
+               ],
+			  "toolsDependencies": [
+				{
+				  "packager": "arduino",
+				  "name": "arm-none-eabi-gcc",
+				  "version": "4.8.3-2014q1"
+				},
+				{
+				  "packager": "ultimachine",
+				  "name": "bossac_samg55",
+				  "version": "1.8.1-samg55"
+				}
+               ]
             }
          ],
          "tools":[
@@ -184,6 +214,19 @@
 					  "archiveFileName": "bossac_samg55-1.8-mingw32.zip",
 					  "checksum": "SHA-256:f302b468ddcc7b4bd92f8296a18250ff9484c7d8ba4eca436765c77bb195316f",
 					  "size": "869192"
+					}
+				]
+			},
+			{
+			  "name": "bossac_samg55",
+			  "version": "1.8.1-samg55",
+			  "systems": [
+					{
+					  "host": "i686-mingw32",
+					  "url": "https://github.com/ultimachine/bossac_samg55/releases/download/1.8.1-samg55/bossac_samg55-1.8.1-mingw32.zip",
+					  "archiveFileName": "bossac_samg55-1.8.1-mingw32.zip",
+					  "checksum": "SHA-256:8550188dcc999904d31591353d4823783f2105f6116df301b7a6f50873da8387",
+					  "size": "869366"
 					}
 				]
 			}
